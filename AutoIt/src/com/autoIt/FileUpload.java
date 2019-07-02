@@ -19,9 +19,9 @@ public class FileUpload {
 	driver.findElement(By.xpath("html/body/input")).click();
 	
 	
-	Runtime.getRuntime().exec("C:\\Users\\USER\\Desktop\\AutoIt\\Fileupload.exe");
+	//Runtime.getRuntime().exec("C:\\Users\\USER\\Desktop\\AutoIt\\Fileupload.exe");
 	
-	driver.quit();
+	driver.close();
 	}
 	
 	
